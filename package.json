@@ -1,0 +1,41 @@
+{
+  "name": "@yosmy/payment",
+  "version": "0.1.0",
+  "main": "build/index.js",
+  "dependencies": {
+    "@yosmy/money": "git+https://github.com/yosmy/money-js.git",
+    "@yosmy/resolution": "git+https://github.com/yosmy/resolution-js.git",
+    "@yosmy/ui": "git+https://github.com/yosmy/ui-js.git",
+    "prop-types": "~15.7",
+    "react": "~17.0",
+    "string-mask": "~0.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "~7.12",
+    "@babel/core": "~7.12",
+    "@babel/plugin-proposal-class-properties": "~7.12",
+    "@babel/plugin-proposal-export-default-from": "~7.12",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "~7.12",
+    "@babel/plugin-proposal-object-rest-spread": "~7.12",
+    "@babel/plugin-proposal-optional-chaining": "~7.12",
+    "@babel/plugin-transform-flow-strip-types": "~7.12",
+    "@babel/plugin-transform-react-jsx": "~7.12",
+    "@babel/plugin-transform-runtime": "~7.12",
+    "@babel/preset-env": "~7.12",
+    "@yosmy/platform": "git+https://github.com/yosmy/web-platform-js.git",
+    "@yosmy/primitive-ui": "git+https://github.com/yosmy/raw-web-primitive-ui-js.git",
+    "@yosmy/primitive-ui-spec": "git+https://github.com/yosmy/primitive-ui-spec-js.git",
+    "@yosmy/style": "git+https://github.com/yosmy/web-style-js.git",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "~26.6",
+    "jest-transform-stub": "^2.0.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      ".+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$": "identity-obj-proxy"
+    }
+  }
+}
