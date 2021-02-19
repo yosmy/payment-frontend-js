@@ -1,5 +1,5 @@
 {
-  "name": "@yosmy/payment",
+  "name": "@yosmy/payment-frontend",
   "version": "0.1.0",
   "main": "build/index.js",
   "dependencies": {
@@ -21,21 +21,6 @@
     "@babel/plugin-transform-flow-strip-types": "~7.12",
     "@babel/plugin-transform-react-jsx": "~7.12",
     "@babel/plugin-transform-runtime": "~7.12",
-    "@babel/preset-env": "~7.12",
-    "@yosmy/platform": "git+https://github.com/yosmy/web-platform-js.git",
-    "@yosmy/primitive-ui": "git+https://github.com/yosmy/raw-web-primitive-ui-js.git",
-    "@yosmy/primitive-ui-spec": "git+https://github.com/yosmy/primitive-ui-spec-js.git",
-    "@yosmy/style": "git+https://github.com/yosmy/web-style-js.git",
-    "identity-obj-proxy": "^3.0.0",
-    "jest": "~26.6",
-    "jest-transform-stub": "^2.0.0"
-  },
-  "scripts": {
-    "test": "jest"
-  },
-  "jest": {
-    "moduleNameMapper": {
-      ".+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$": "identity-obj-proxy"
-    }
+    "@babel/preset-env": "~7.12"
   }
 }
